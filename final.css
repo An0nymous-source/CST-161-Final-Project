@@ -1,0 +1,100 @@
+/* 
+  Final Project
+  Author: Andry Nunez, Armando Escobar 
+  Date: December 23, 2021    
+
+  Filename:         final.css
+*/
+
+
+aside
+{
+  width: 100%;
+  float: left;
+  clear: right;
+  text-align: center;
+  margin-left: 200px;
+}
+h1
+{
+  margin-left: -500px;
+}
+#main
+{
+  margin-right: 100px;
+  float: left;
+  clear: right;
+  margin-left: 50px;
+}
+#main article
+{
+  width: 30%;
+  float: left;
+  clear: right;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  
+}
+article h2
+{
+  font-size: 16px;
+  animation-name: rgb;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+/*Sets the format of all the individual images inside the figure element*/
+figure img
+{
+  
+   width: 30%;
+   height: 300px;
+   margin: 10px;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+}
+
+/*Sets the format of the figcaption element inside the figure element*/
+figure figcaption
+{ 
+
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+
+  animation-name: rgb;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+figure div
+{
+  background-color: burlywood;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#video
+{
+  width: 50%;
+  float: left;
+  clear: none;
+}
+#homemade
+{
+  width: 45%;
+  float: right;
+  clear: none;
+  
+}
+footer
+{
+  display: block;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+  font-variant: small-caps;
+ 
+}

@@ -1,0 +1,32 @@
+/* 
+  Final Project
+  Author: Andry Nunez, Armando Escobar 
+  Date: December 23, 2021    
+
+  Filename:         about-us.css
+*/
+body
+{
+  
+  text-align: center;
+  
+}
+section:first-of-type
+{
+  margin-top: 10%;
+}
+li
+{
+  list-style: none;
+}
+a
+{
+  text-decoration: none;
+}
+h1 
+{
+  font-size: 28px;
+  animation-name: rgb;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}

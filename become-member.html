@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+        Final Project
+        Author: Andry Nunez, Armando Escobar 
+        Date: December 23, 2021    
+
+        Filename:         become-member.html
+        Supporting files: modrnizr-1.5.js, formsubmit.js, become-member.css, main.css
+    -->
+
+  <meta charset="UTF-8" />
+  <title>Final Project</title>
+  <script src="modernizr-1.5.js"></script>
+  <script src="formsubmit.js"></script>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <link href="become-member.css" rel="stylesheet" />
+  <link href="main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="media/club-logo.jpeg" alt="GobaL Connections Club Logo">
+    <img id="banner" src="media/International.jpg" alt="International">
+
+  </header>
+
+  <nav>
+    <ul>
+      <li><a class="current" href="index.html">Home</a></li>
+      <li><a href="mission.html">Our mission</a></li>
+      <li><a href="become-member.html">Become a member</a></li>
+      <li><a href="about-us.html">About us</a></li>
+    </ul>
+  </nav>
+
+  <form name="studentInfo" method="post" >
+    
+
+    <fieldset>
+      <legend>Contact Information</legend>
+
+      <table id=contactInfo>
+        <tr>
+          <td>
+            <label for="fName">First Name*</label>
+          </td>
+          <td style="padding-left: 50px">
+            <input type="text" name="fName" id="fName" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="lName">Last Name*</label>
+          </td>
+          <td style="padding-left: 50px">
+            <input type="text" name="lName" id="lName" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="studentID">Student ID*</label>
+          </td>
+          <td style="padding-left: 50px">
+            <input type="int" name="studentID" id="studentID" size="5">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="phone">Phone*</label>
+          </td>
+          <td style="padding-left: 50px">
+            <input type="tel" name="phone" id="phone" size="15" pattern="[0-9]{10}" required>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="credit-class">Are you taking at least one credit class?</label>
+          </td>
+          <td style="padding-left: 50px">
+            <input type="radio" name="credit" id="creditCourse">Yes
+            <input type="radio" name="credit" id="creditCourse">No
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="campus">Select your home campus</label>
+          </td>
+          <td style="padding-left: 50px">
+            <select name="school" id="school">
+              <option value="Grant">Grant</option>
+              <option value="Ammerman">Ammerman</option>
+              <option value="Eastern">Eastern</option>
+            </select>
+          </td>
+        </tr>
+
+      </table>
+      <input id="submit" type="submit" value="Submit" />
+    </fieldset>
+
+    <article>
+      <h2>Becoming a Member</h2>
+      <p> If you want to become a member of our club and participate in all our activities,
+        please fill out this form. We need this information to contact you and register you as a member.
+        Please note that if you are not taking any credit classes, you will not be able to go with us on field trips
+        sponsored by the college or receive giveaways or prices.
+        This is because students taking non-credit classes don't pay a fee that the college uses to finance student
+        activities. However, you are welcome to join our
+        general meetings.
+      </p>
+    </article>
+
+  </form>
+
+</body>
+
+</html>

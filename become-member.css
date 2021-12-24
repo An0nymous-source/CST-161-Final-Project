@@ -1,0 +1,60 @@
+/* 
+  Final Project
+  Author: Andry Nunez, Armando Escobar 
+  Date: December 23, 2021    
+
+  Filename:         become-member.css
+*/
+
+#studentInfo
+{
+  display: block;
+  letter-spacing: 3px;
+
+}
+form
+{
+  margin-top: 5%;
+}
+/*Sets the position of the 'fielset' elements*/
+fieldset
+{
+  width: 40%;
+  float: left;
+  clear: right;
+}
+
+
+/*Sets size and marging of the fieldsets*/
+fieldset
+{
+  height: 25%;
+  width: 30%;
+  margin-right: 10px;
+}
+
+/*Sets a padding on all 'td' elements in the table*/
+td
+{
+  padding: 3px;
+}
+article
+{
+  width: 45%;
+  float: left;
+  clear: right;
+  padding-left: 20%;
+
+}
+#submit
+{
+  margin-top: 10%;
+  margin-left: 40%;
+}
+h2
+{
+  font-size: 16px;
+  animation-name: rgb;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
